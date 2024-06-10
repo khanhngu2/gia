@@ -8,7 +8,7 @@ body{
     margin:0 auto;    
 }
 .container > header{
-    background-image: url('Images/sv.jpg'); 
+    background-image: url('images/sv.jpg'); 
     background-size:100% 100%; 
     height:5px; 
     padding-bottom:25%; 
