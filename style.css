@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(240, 219, 192);
+    padding: 0;
+    margin:0px; 
+}
+.container{
+    max-width:1000px; 
+    margin:0 auto;    
+}
+.container > header{
+    background-image: url('Images/sv.jpg'); 
+    background-size:100% 100%; 
+    height:5px; 
+    padding-bottom:25%; 
+
+} 
+.container > nav{
+    background-color:orangered; 
+    color:white; 
+    text-align:center; 
+    font-variant:small-caps; 
+    box-shadow: 0 0 20px black;
+    display: flex;
+}
+.container > article{
+    min-height:400px; 
+    width:75%; 
+    background-color:white; 
+    float:left; 
+}
+.container > aside{ 
+    min-height:400px; 
+    width:25%; 
+    background-color:lightgray; 
+    float:right; 
+}
+.container > footer{
+    border-top:5px double orangered; 
+    line-height:50px; 
+    background-color:lightcyan; 
+    text-align:center; 
+    font-variant:small-caps; 
+    clear:both; 
+}
+.container > nav > a{
+    text-decoration:none; 
+    margin: 0 10px; 
+}
+.container > nav > a:hover{
+    color:yellow;
+    text-decoration:underline;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+    display: block;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+    margin-left: 20%;
+    
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0px 10px;
+    line-height: 40px;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu ul ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 100px;
+    background-color: white;
+    box-shadow: 0px 0px 1px gray;
+    position: absolute;
+    display: none;
+}
+.menu ul ul a{
+    line-height: 30px;
+    color: orangered;
+    display: block;
+    text-decoration:none ;
+    font-variant:small-caps ;
+    font-size:larger ;
+    padding:0 10px ;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+    text-shadow: 0 0 10px black;
+}
+.menu ul ul a:hover{
+    background-color:orangered ;
+    color:white ;
+}
+aside{
+    height: 20px;
+    flex-basis: 20%;
+}
+aside>ul{
+    padding: 0px ;
+    margin : 5px;
+    list-style:none;
+    border-radius: 3px;
+    box-shadow:0 0 3px gray ;
+
+   }
+/* */
+aside>ul>li>a{
+       background: url('Images/dot1.png') no-repeat 10px center ;
+       display: block; 
+       border-bottom: 1px dotted orangered ;
+       color: orangered ;
+       font-variant: small-caps ;
+       font-size: larger ;
+       text-decoration: none ;
+       padding: 8px 5px 8px 30px ;
+       display: block;
+
+   }
+   aside>ul>li>a:hover{ 
+       background: url('Images/dot2.png') no-repeat 10px center ;
+       border-bottom: 1px dotted white ;
+       background-color: orangered ;
+       color: white ;
+       font-weight: bold;
+       display: block;
+   }
