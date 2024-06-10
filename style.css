@@ -125,7 +125,7 @@ aside>ul{
    }
 /* */
 aside>ul>li>a{
-       background: url('Images/dot1.png') no-repeat 10px center ;
+       background: url('images/dot1.png') no-repeat 10px center ;
        display: block; 
        border-bottom: 1px dotted orangered ;
        color: orangered ;
@@ -137,7 +137,7 @@ aside>ul>li>a{
 
    }
    aside>ul>li>a:hover{ 
-       background: url('Images/dot2.png') no-repeat 10px center ;
+       background: url('images/dot2.png') no-repeat 10px center ;
        border-bottom: 1px dotted white ;
        background-color: orangered ;
        color: white ;
